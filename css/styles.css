@@ -1,0 +1,120 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.logo-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1E90FF;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Add gap between image and text */
+}
+
+.nav-link {
+    margin: 0 1rem; /* Margin to the right of each nav link */
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.navbar-container {
+    margin: 0 10rem; /* Add equal margin on left and right */
+}
+
+.navbar {
+    min-height: 5rem; /* Set minimum height for the navbar */
+}
+
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.content-section p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.thumbnail img {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 1rem; /* Space between image and text */
+}
+
+.thumbnail h3 {
+    margin-bottom: 1rem; /* Space between title and description */
+}
+
+.thumbnail:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.container {
+    margin-top: 50px;
+}
+.card {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+.card-body {
+    padding: 30px;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive::before {
+    display: block;
+    content: '';
+}
+.embed-responsive-16by9::before {
+    padding-top: 56.25%;
+}
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.btn-group {
+    margin-top: 20px;
+    gap: 10px; /* Add space between buttons */
+}
+.btn-group .btn {
+    margin: 0 5px; /* Adjust button spacing */
+}
+.author-link {
+    text-decoration: none;
+    color: #007bff;
+}
+.author-link:hover {
+    text-decoration: underline;
+}
+.description-text {
+    text-align: left;
+    display: block;
+}
