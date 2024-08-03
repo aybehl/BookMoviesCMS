@@ -15,10 +15,10 @@
                     <a class="nav-link" href="<?php echo BASE_URL; ?>src/books/viewAllBooks.php">Books</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Authors</a>
+                    <a class="nav-link" href="<?php echo BASE_URL; ?>src/authors/viewAllAuthors.php">Authors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Movies</a>
+                    <a class="nav-link" href="<?php echo BASE_URL; ?>src/movies/viewAllMovies.php">Movies</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto">
